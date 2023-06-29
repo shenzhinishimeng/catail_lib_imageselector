@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_background">#268FFD</color><!--蓝色背景-->
+    <color name="white_background">#FFFFFF</color><!--白色背景-->
+</resources>

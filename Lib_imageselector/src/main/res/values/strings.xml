@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">imageselector</string>
+    <string name="image">Photos</string>
+    <string name="confirm">Confirm</string>
+    <string name="preview">Preview</string>
+    <string name="select">Select</string>
+    <string name="all_photos">All Photos</string>
+</resources>
