@@ -542,16 +542,16 @@ public class ImageSelectorActivity extends AppCompatActivity {
 //            Toast.makeText(this, "没有图片", Toast.LENGTH_LONG).show();
             return;
         }
-        int hasWriteExternalPermission = ContextCompat.checkSelfPermission(getApplication(),
-                Manifest.permission.WRITE_EXTERNAL_STORAGE);
-        if (hasWriteExternalPermission == PackageManager.PERMISSION_GRANTED) {
+//        int hasWriteExternalPermission = ContextCompat.checkSelfPermission(getApplication(),
+//                Manifest.permission.WRITE_EXTERNAL_STORAGE);
+//        if (hasWriteExternalPermission == PackageManager.PERMISSION_GRANTED) {
             //有权限，加载图片。
             loadImageForSDCard();
-        } else {
-            //没有权限，申请权限。
-            ActivityCompat.requestPermissions(ImageSelectorActivity.this,
-                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_WRITE_EXTERNAL_REQUEST_CODE);
-        }
+//        } else {
+//            //没有权限，申请权限。
+//            ActivityCompat.requestPermissions(ImageSelectorActivity.this,
+//                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_WRITE_EXTERNAL_REQUEST_CODE);
+//        }
     }
 
     /**
